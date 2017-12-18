@@ -7,7 +7,7 @@ namespace TCPSERVER
 {
     class RequestInfoTest : IReceiveFilterFactory<MyAppRequestInfo>
     {
-        public IReceiveFilter<MyAppRequestInfo> CreateFilter(IAppServer appServer, IAppSession appSession, IPEndPoint remoteEndPoint)
+        public  IReceiveFilter<MyAppRequestInfo> CreateFilter(IAppServer appServer, IAppSession appSession, IPEndPoint remoteEndPoint)
         {
             throw new NotImplementedException();
         }
