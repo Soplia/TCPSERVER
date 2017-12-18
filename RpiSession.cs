@@ -19,7 +19,7 @@ namespace TCPSERVER
         /// <summary>
         ///session是否存活
         /// </summary>
-        public bool isSessionAlive { get; set; }
+         public bool isSessionAlive { get; set; }
 
 
         protected override void OnSessionStarted()
